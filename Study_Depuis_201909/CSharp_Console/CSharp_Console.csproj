@@ -46,6 +46,7 @@
     <Compile Include="DesignPatterns\DecoratorPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\interfaces.cs" />
+    <Compile Include="GlobalInterface\IExampleRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
