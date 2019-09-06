@@ -1,0 +1,13 @@
+<!DOCTYPE thml>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Output</title>
+</head>
+
+<body>
+  <h1>Window 개게 alert() 메소드</h1>
+
+</body>
+</html>
