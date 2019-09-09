@@ -1,3 +1,3 @@
 function printDate(){
-  document.getElementById("date).innerHTML = Date();
+  document.getElementById("date").innerHTML = Date();
 }
