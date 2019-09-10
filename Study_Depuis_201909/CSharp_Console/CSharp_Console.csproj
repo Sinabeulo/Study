@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\AlgorithmEx.cs" />
+    <Compile Include="Algorithm\PrimaryNumber.cs" />
+    <Compile Include="Control.cs" />
     <Compile Include="DesignPatterns\DecoratorPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\interfaces.cs" />
