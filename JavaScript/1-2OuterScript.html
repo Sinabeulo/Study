@@ -1,0 +1,70 @@
+<!DOCTYPE thml>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Apply</title>
+  <script type="text/javascript" src="OuterJS.js"></script>
+  <script type="text/javascript" src="outerScript/TestAlert.js"></script>
+</head>
+
+<body>
+  <h1></h1>
+  <h3>-- 1 --</h3>
+  <button onclick="printDate()">현재 날짜와 시간 표시하기</button>
+  <button onclick="printTestAlert()">Alert</button>
+  <p id="date"></p>
+  <p id="exStr"></p>
+  <p id="exBool"></p>
+<!--  <p id="exSym"></p> -->
+  <p id="exObject"></p>  
+  <script>
+    var num = 10;
+    var str = "JS";
+    document.getElementById("exStr").innerHTML = "String Sum :" + num + str;
+
+    var firstNum = 10;
+    var secondNum = 11;
+    document.getElementById("exBool").innerHTML = firstNum == secondNum;
+
+    //var sym = Symbol("JS");    //Symbol 타입 -> ECMAScript 6 부터 추가된 타입으로 유일하고 변경할 수 없는 타입.
+    //var symObj = Object(sym); //Object 타입
+    //document.getElementById("exSym").innerHTML = "Object : " + Obj + ", Symbol : " + sym;
+ 
+    typeof sym; // Symbol
+
+    var dog = { name:"ShootingStar", age:3}; // 객체 생성
+    // 객체의 프로퍼티 참조
+    document.getElementById("exObject").innerHTML = "name is "+dog.name+", age is "+dog.age
+  </script>
+
+  <hr/>
+
+  <h3>-- 2. 타입변환 --</h3>
+  <p>묵시적 변환</p>
+  <p id="result2"></p>
+  <p>명시적 변환</p>
+  <p id="result2-1"></p>
+  <script>
+    // 묵시적 변환
+    var result2 = 10 + "문자열" // 10이 문자열로
+    document.getElementById("result2").innerHTML = result2 + "<br>";
+    result2 = "3" * "5";
+    document.getElementById("result2").innerHTML += result2 + "<br>";
+    result2 = 1 - "문자열";
+    document.getElementById("result2").innerHTML += result2 + "";
+
+    // 명시적 변환 함수
+    document.getElementById("result2-1").innerHTML = Number("10") + "<br>";	// 10
+    document.getElementById("result2-1").innerHTML += String(true) + "<br>";	// "true"
+    document.getElementById("result2-1").innerHTML += Boolean(0) + "<br>";		// false
+    document.getElementById("result2-1").innerHTML += Object(3);				// new Number(3)
+  </script>
+
+  <hr/>
+  <h3>void 연산자</h3>
+  <a href="javascript:void(document.body.style.backgroundColor='grey')">
+    Background Color Change
+  </a>
+</body>
+</html>

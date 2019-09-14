@@ -1,9 +1,6 @@
-﻿using System;
+﻿using CSharp_Console.GlobalInterface;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static DesignPattern.Program;
 
 namespace DesignPattern.ObserverPattern
 {

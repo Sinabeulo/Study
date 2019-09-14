@@ -1,0 +1,41 @@
+<!DOCTYPE thml>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Output</title>
+</head>
+
+<body>
+  <script>
+    function forIn(){
+      document.write("<br>" + "for / in 문은 해당 객체의 모든 열거할 수 있는 프로퍼티(enumerable properties)를 순회할 수 있도록 해줍니다." + "<br>");
+
+      document.write("-access array" + "<br>");
+      var arr = [3,4,5];
+      for(var i in arr){
+        document.write(i+ " ");
+      }
+
+      document.write("<br>"+"-access property" + "<br>");
+      var obj = { name : "Name", age : 20 };
+      for(var i in obj){
+        document.write(i + "<br>");
+      }
+    }
+    function forOf(){
+      document.write("<br>" + "for / of 문은 반복할 수 있는 객체(iterable objects)를 순회할 수 있도록 해주는 반복문입니다." + "<br>");
+      var arr = [3,4,5];
+      for(var i of arr){
+        document.write(i + " ");
+      }
+    }
+  </script>
+  <h3>iteration statement</h3>
+  <p>for in</p>
+  <button onclick="forIn()">for In</button>
+  <p>for of</p>
+  <button onclick="forOf()">for of</button>  
+
+</body>
+</html>

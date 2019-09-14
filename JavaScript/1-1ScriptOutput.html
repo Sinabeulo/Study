@@ -1,0 +1,34 @@
+<!DOCTYPE thml>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Output</title>
+</head>
+
+<body>
+  <h1>Window 개게 alert() 메소드</h1>
+  <h2 Id="text">BeforeChangedText</h2>
+    <button onclick="alertDialogBox()">alert 대화 상자</button>
+    <button onclick="textChangeEvent()">text 변경 스크립트</button>
+    <button onclick="document.write(13*7)">버튼을 눌러보시지요.</button>
+    <button onclick="consoleLog()" Id="co">Console.log</button>
+    <script>
+      function alertDialogBox() {
+        alert("Hello!!! THERE!!!!");
+      }
+      function textChangeEvent(){
+        var str = document.getElementById("text");
+        str.innerHTML = "Text has been changed!!!";
+      }
+      function consoleLog(){
+        var str = document.getElementById("co");
+        str.innerHTML = "Check Console";
+        console.log("HelloThere");
+      }
+      document.write(13*6);
+      console.log(4*5);
+    </script>
+
+</body>
+</html>

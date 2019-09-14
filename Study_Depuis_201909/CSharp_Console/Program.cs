@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CSharp_Console.GlobalInterface;
+using DesignPattern.DecoratorPattern;
+using DesignPattern.ObserverPattern;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +13,7 @@ namespace CSharp_Console
     {
         static void Main(string[] args)
         {
+            Control con = new Control();
         }
     }
 }

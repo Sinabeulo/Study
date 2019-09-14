@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static DesignPattern.Program;
+﻿using CSharp_Console.GlobalInterface;
+using System;
 
 namespace DesignPattern.DecoratorPattern
 {

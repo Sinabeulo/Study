@@ -1,0 +1,14 @@
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.exe.config
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.exe
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.pdb
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.csprojAssemblyReference.cache
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.csproj.CoreCompileInputs.cache
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.exe
+C:\Users\goodguy\Desktop\프로그래밍\Git\master\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.pdb
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.exe.config
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.exe
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\bin\Debug\CSharp_Console.pdb
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.csprojAssemblyReference.cache
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.csproj.CoreCompileInputs.cache
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.exe
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\CSharp_Console\obj\Debug\CSharp_Console.pdb

@@ -1,0 +1,15 @@
+<!DOCTYPE thml>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Output</title>
+</head>
+
+<body>
+
+  <h3>iteration statement</h3>
+
+
+</body>
+</html>
