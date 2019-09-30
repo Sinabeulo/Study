@@ -2,7 +2,17 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ide
+*.ide-shm
+*.ide-wal
+
 /Study_Depuis_201909/.vs/Study_Depuis_201909/v15/Server/sqlite3/db.lock
 /Study_Depuis_201909/.vs/Study_Depuis_201909/v15/Server/sqlite3/storage.ide
 /Study_Depuis_201909/.vs/Study_Depuis_201909/v15/Server/sqlite3/storage.ide-shm
 /Study_Depuis_201909/.vs/Study_Depuis_201909/v15/Server/sqlite3/storage.ide-wal
+/Study_Depuis_201909/.vs/Study_Depuis_201909/v15/.suo
