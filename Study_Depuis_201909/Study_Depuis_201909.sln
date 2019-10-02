@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Console", "CSharp_Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform", "Winform\Winform.csproj", "{54F6A956-748B-4638-B844-C3B821B5DAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_WPF", "CSharp_WPF\CSharp_WPF.csproj", "{1BFD8D03-EBF0-4AF9-8B3A-9CAE65C4C462}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_Core_WebApp", "ASP_Core_WebApp\ASP_Core_WebApp.csproj", "{6C01C1D5-08FE-4D90-A19D-E57CC719CE8D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{54F6A956-748B-4638-B844-C3B821B5DAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F6A956-748B-4638-B844-C3B821B5DAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F6A956-748B-4638-B844-C3B821B5DAAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BFD8D03-EBF0-4AF9-8B3A-9CAE65C4C462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BFD8D03-EBF0-4AF9-8B3A-9CAE65C4C462}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BFD8D03-EBF0-4AF9-8B3A-9CAE65C4C462}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BFD8D03-EBF0-4AF9-8B3A-9CAE65C4C462}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C01C1D5-08FE-4D90-A19D-E57CC719CE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C01C1D5-08FE-4D90-A19D-E57CC719CE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C01C1D5-08FE-4D90-A19D-E57CC719CE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C01C1D5-08FE-4D90-A19D-E57CC719CE8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
