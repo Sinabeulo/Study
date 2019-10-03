@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +50,8 @@
     <Compile Include="DesignPatterns\DecoratorPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\Classes.cs" />
     <Compile Include="DesignPatterns\ObserverPattern\interfaces.cs" />
+    <Compile Include="EtcNote\Note191003.cs" />
+    <Compile Include="EtcNote\NoteController.cs" />
     <Compile Include="GlobalInterface\IExampleRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
