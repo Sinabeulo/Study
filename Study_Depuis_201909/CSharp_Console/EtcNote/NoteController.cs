@@ -28,7 +28,9 @@ namespace CSharp_Console.EtcNote
                     case "191003":
                         example = new Note191003();
                         break;
-
+                    case "191010":
+                        example = new Note191010();
+                        break;
                     case "exit": case "quit": case "e": case "q": isExit = true; break;
                 }
                 example?.RunExample();
