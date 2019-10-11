@@ -1,4 +1,5 @@
 ﻿using CSharp_Console.Algorithm;
+using CSharp_Console.EtcNote;
 using CSharp_Console.GlobalInterface;
 using DesignPattern.DecoratorPattern;
 using DesignPattern.ObserverPattern;
@@ -27,6 +28,12 @@ namespace CSharp_Console
 
                     case "al":
                         AlgorithmEx algorithmEx = new AlgorithmEx();
+                        break;
+
+                    case "3":
+                    case "note":
+                        NoteController aa = new NoteController();
+                        aa.RunExample();
                         break;
                 }
             }
