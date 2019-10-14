@@ -55,6 +55,7 @@
     <Compile Include="DesignPatterns\ObserverPattern\interfaces.cs" />
     <Compile Include="EtcNote\Note191003.cs" />
     <Compile Include="EtcNote\Note191010.cs" />
+    <Compile Include="EtcNote\Note191014.cs" />
     <Compile Include="EtcNote\NoteController.cs" />
     <Compile Include="GlobalInterface\IExampleRun.cs" />
     <Compile Include="Program.cs" />
