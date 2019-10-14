@@ -1,6 +1,7 @@
 ﻿using CSharp_Console.Algorithm;
 using CSharp_Console.EtcNote;
 using CSharp_Console.GlobalInterface;
+using CSharp_Console.SmallFeature;
 using DesignPattern.DecoratorPattern;
 using DesignPattern.ObserverPattern;
 using System;
@@ -15,6 +16,7 @@ namespace CSharp_Console
     {
         public Control()
         {
+            IExampleRun example = null;
             while (true)
             {
                 Console.WriteLine("Input Category");
@@ -27,15 +29,19 @@ namespace CSharp_Console
                         break;
 
                     case "al":
-                        AlgorithmEx algorithmEx = new AlgorithmEx();
+                        example = new AlgorithmEx();
                         break;
 
                     case "3":
                     case "note":
-                        NoteController aa = new NoteController();
-                        aa.RunExample();
+                        example = new NoteController();
+                        break;
+                    case "4":
+                    case "features":
+                        example = new FeatureControl();
                         break;
                 }
+                example?.RunExample();
             }
         }
 
