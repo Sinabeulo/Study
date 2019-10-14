@@ -14,22 +14,22 @@ namespace CSharp_Console.EtcNote
         {
             List<string> originList = new List<string>()
             {
-                "0. l 2.5mg",
-                "1. k 2.5mg",
-                "2. j 2.5mg",
-                "3. i 2.5mg",
-                "4. h 2.5mg",
-                "5. g 2.5mg",
-                "6. f2.5mg",
-                "7. e2.5mg",
-                "8. d2.5mg",
-                "9. c2.5mg",
-                "10. b2.5mg",
-                "11. a2.5mg"
+                "0.가 2.5mg",
+                "1.나 2.5mg",
+                "2.다 2.5mg",
+                "3.라 2.5mg",
+                "4.마 2.5mg",
+                "5.바 2.5mg",
+                "6.사2.5mg",
+                "7.아2.5mg",
+                "8.자2.5mg",
+                "9.차2.5mg",
+                "10. 카2.5mg",
+                "11. 타a2.5mg"
             };
 
             // [숫자.] 제거
-            Regex regex = new Regex(@"[0-9]?[0-9]. ");
+            Regex regex = new Regex(@"^[0-9]?[0-9]\.");
 
             foreach (var str in originList)
                 Console.WriteLine(regex.Replace(str, ""));
