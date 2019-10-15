@@ -7,3 +7,5 @@ C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debu
 C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debug\Winform.csproj.CoreCompileInputs.cache
 C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debug\Winform.exe
 C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debug\Winform.pdb
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debug\Winform.Form1.resources
+C:\Users\ITSCORE\Desktop\일지\MyGit\Study\Study_Depuis_201909\Winform\obj\Debug\Winform.TagExUC.resources
