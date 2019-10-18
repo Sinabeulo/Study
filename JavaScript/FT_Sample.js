@@ -72,3 +72,48 @@ function openNewPage() {
 }
 
 //=================================================================================
+//2019-10-18
+//ES6 새로운 데이터 타입
+//let == var 
+//const = 상수
+
+function backtickSample(){
+    var world = 'world';
+    console.log(`Hello ${world}`);
+
+    let testMutliStr = `line1
+    line2
+    line3`;
+    console.log(testMutliStr);
+}
+
+function getGreeting(){
+    return "Hello World";
+}
+
+function f_call_reference(){
+    console.log(getGreeting());
+    console.log(getGreeting);
+
+    const o = {};
+    o.f=getGreeting();
+    o.f();      // "Hello, World!"
+}
+
+function f_parameter(){
+    function f(o){
+        o.message = "f에서 수정함";
+        o = {
+            message: "새로운 객체"
+        };
+        console.log(`f 내부 : o.message="${o.message}" (하당후)`);
+    }
+
+    let o = {
+        message : '초기값'
+    };
+
+    console.log(`f를 호출하기 전: o.message="${o.message}"`);
+    f(o);
+    console.log(`f를 호출한 다음: o.message="${o.message}"`);
+}

@@ -34,6 +34,10 @@ namespace CSharp_Console.EtcNote
                     case "191014":
                         example = new Note191014(); // 정규식 (Regex)
                         break;
+                    case "191018":
+                        example = new Note191018(); // 값형식, 참조형식 궁금증
+                        break;
+
                     case "exit": case "quit": case "e": case "q": isExit = true; break;
                 }
                 example?.RunExample();
