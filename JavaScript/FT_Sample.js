@@ -199,3 +199,123 @@ function cancelSidEffect(){
     const result1 = doIt && y++;
     console.log(result1 + ' : ' + y);
 }
+
+//=================================================================================
+//2019-10-23
+// 해체 할당
+function destructuringAssignment(){
+    // 1. EX1
+    // 객체 선언
+    const obj = {b:2, c:3, d:4};
+
+    // 해체 할당
+    const {a,b,c} = obj;
+
+    console.log(obj);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+    console.log();
+    console.log('===========================');
+    // 2. EX2
+    // 배열선언
+    const arr = [1,2,3];
+
+    // 배열 해체 할당
+    let [x,y] = arr;
+    console.log(x);
+    console.log(y);
+    console.log(z);
+    console.log(arr[2]);
+
+    console.log();
+    console.log('===========================');
+    // 3. EX3
+    // rest 
+    const arr1 = [1,2,3,4,5];
+
+    // 
+    let [xx,yy, ...rest] = arr1;
+    console.log(xx);
+    console.log(yy);
+    console.log(rest);
+
+}
+
+//2019-10-24
+function thisKeyword(){
+    const o = {
+        name: 'Julie',
+        greetBackwards: function(){
+            console.log( this);
+            function getReverseName(){
+                let nameBackwards = '';
+                for(let i=this.name.length-1; i>=0; i--){
+                    nameBackwards += this.name[i];
+                }
+                return nameBackwards;
+            }
+            return `${getReverseName()} si eman ym ,olleH`;
+        },
+    };
+    console.log(o.greetBackwards());
+
+    const p = {
+        name:'Julie',
+        //self: this,
+        greetBackwards: function(){
+            //const self = this;
+            console.log(self);
+            function getReverseName(){
+                let nameBackwards = '';
+                for(let i=self.name-1; i>=0; i--){
+                    nameBackwards += self.name[i];
+                }
+                return nameBackwards;
+            }
+            return `${getReverseName()} si eman ym ,olleH`;
+        }
+    }
+    console.log(p.greetBackwards());
+
+    const q = {
+        name:'Julie',
+        //self: this,
+        greetBackwards: function(){
+            //const self = this;
+            const getReverseName =() => {
+                let nameBackwards = '';
+                for(let i=this.name.length-1; i>=0;i--){
+                    nameBackwards+=this.name[i];
+                }
+                return nameBackwards;
+            }
+            return `${getReverseName()} si eman ym ,olleH`;
+            // console.log(self);
+            // function getReverseName(){
+            //     let nameBackwards = '';
+            //     for(let i=self.name-1; i>=0; i--){
+            //         nameBackwards += self.name[i];
+            //     }
+            //     return nameBackwards;
+            // }
+            // return `${getReverseName()} si eman ym ,olleH`;
+        }
+    }
+    console.log(q.greetBackwards());
+}
+
+function callApplyBind(){
+    const bruce = {name:"Bruce"};
+    const madeline = {name:"Madeline"};
+
+    function greet(){
+        return `Hello ${this.name}`;
+    }
+
+    console.log(greet());
+    console.log(greet.call(bruce));
+    console.log(greet.call(madeline));
+}
